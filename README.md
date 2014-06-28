@@ -2,7 +2,7 @@
 
 Collection of ideas and inspiration for php classes
 
-```
+```php
 class Beispiel{
 
 	/**
