@@ -1,4 +1,4 @@
-**Function**
+# Function
 leaves an existing game
 
 **Permission**

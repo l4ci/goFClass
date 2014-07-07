@@ -1,4 +1,4 @@
-**Function**
+# Function
 unlists an existing listed game from user list
 
 **Permission**

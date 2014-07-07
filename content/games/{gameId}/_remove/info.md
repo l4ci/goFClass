@@ -1,4 +1,4 @@
-**Function**
+# Function
 removes a game
 
 - deletes all joined members

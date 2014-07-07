@@ -1,4 +1,4 @@
-**Function**
+# Function
 leaves an existing team
 
 - if was teamleader -> set new teamleader -> then leave

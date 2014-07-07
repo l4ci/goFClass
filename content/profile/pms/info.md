@@ -1,4 +1,4 @@
-**Function**
+# Function
 Shows all Personal Messages for the loggedin User
 
 - 1to1 messaging

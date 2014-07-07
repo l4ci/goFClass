@@ -1,5 +1,5 @@
 # Function
-marks a notification as unread
+Shows all Personal Information
 
 **Permission**
 LoggedIn

@@ -1,4 +1,4 @@
-**Function**
+# Function
 Shows single Team by ID
 
 *Subpages*

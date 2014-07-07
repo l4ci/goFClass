@@ -1,4 +1,4 @@
-**Function**
+# Function
 User Panel for logged in users
 
 *Subpages*

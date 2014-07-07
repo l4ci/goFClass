@@ -1,9 +1,10 @@
-**Function**
+# Function
 Shows all visible games
 
 **Game Fields**
 
-- gid (INT (auto_increment)- game id)
+- gameId (INT (auto_increment)- game id)
+- subGameId (INT - if subgame - game id of full game)
 - shorttitle (string - short title of game)
 - title (string - fulltitle of game)
 - description (text - short description of game)

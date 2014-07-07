@@ -1,4 +1,4 @@
-**Function**
+# Function
 shows all topics for this {teamId}
 
 **Permission**

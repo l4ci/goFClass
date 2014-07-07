@@ -1,4 +1,4 @@
-**Function**
+# Function
 bans the user
 
 **Permission**

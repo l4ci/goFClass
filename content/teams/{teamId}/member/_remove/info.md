@@ -1,4 +1,4 @@
-**Function**
+# Function
 removes a teammember from the team
 
 **Permission**

@@ -1,4 +1,4 @@
-**Function**
+# Function
 removes a team
 
 - delete team

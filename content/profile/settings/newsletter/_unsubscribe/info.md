@@ -1,4 +1,4 @@
-**Function**
+# Function
 Newsletter unsubscribe
 
 **Permission**

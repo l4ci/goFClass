@@ -1,4 +1,4 @@
-**Function**
+# Function
 unbans the user
 
 **Permission**

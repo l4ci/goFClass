@@ -1,4 +1,4 @@
-**Function**
+# Function
 set a team to active so its listed again
 
 *Status*

@@ -1,4 +1,4 @@
-**Function**
+# Function
 sets/change the team details
 
 **Permission**

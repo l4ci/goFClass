@@ -1,4 +1,4 @@
-**Function**
+# Function
 Add a new game - FORM
 
 **Permission**
