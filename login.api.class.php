@@ -1,5 +1,5 @@
 <?php
-class login{
+class login extends api {
 
   /**
    * doLogin

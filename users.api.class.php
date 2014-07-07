@@ -4,7 +4,7 @@
  * *
  * get/set information for multiple user
  * */
-class users {
+class users extends api {
 
 
   private static $dbTable = "users";

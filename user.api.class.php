@@ -4,7 +4,7 @@
 * *
 * get/set information for a single user
 * */
-class user {
+class user extends api {
 
   private static $dbTable = "users";
 

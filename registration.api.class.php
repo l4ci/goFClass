@@ -4,7 +4,7 @@
  * *
  * register / verify new users
  * */
-class registration{
+class registration extends api {
 
 
   // New User

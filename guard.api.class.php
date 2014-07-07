@@ -4,7 +4,7 @@
  * *
  * check for required rights / permissions
  * */
-class guard{
+class guard extends api {
 
 
   /**
