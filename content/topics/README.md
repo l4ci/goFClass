@@ -9,7 +9,7 @@ Shows all topics from `topicCategories` as well as `gameId` and `teamId`
 - status (INT)
   - 0: inactive/PendingDelete (not visible)
   - 1: Active (visible)
-- permission (INT - required role to view the topic)
+- permission (INT - required role to view the topic categorie)
 
 - title (STRING - fulltitle of topic categorie)
 - description (text - short description of categorie)
@@ -18,10 +18,10 @@ Shows all topics from `topicCategories` as well as `gameId` and `teamId`
 
 ### Ideas for Categories
 
-- News
-- What is?
-- Help
-- Bugs
+- News (Public)
+- What is? (Public)
+- Help/Support (LoggedIn)
+- Bugs (LoggedIn)
 
 ## Permission
 Public

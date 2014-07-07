@@ -14,6 +14,7 @@ README.md - information for folder/function/structure
 
 - Visitors can `register` and apply for membership - Members can vote for them -> Role:Trial
 - Visitors can signup with `invite code` -> Role: Trial
+- Visitors only see Public Topics
 
 ## Trials
 - Trials can add `games` to their list or join `games` (Limit: 3) - 1 game can be the `primary game`
