@@ -5,4 +5,4 @@ removes a game
 - deletes all teams with this game
 
 **Permission**
-ADMINS only
+ADMINS

@@ -1,5 +1,5 @@
 **Function**
-Shows/Edit all Personal Information
+Set/Change all Personal Information
 
 - Email
 - Name

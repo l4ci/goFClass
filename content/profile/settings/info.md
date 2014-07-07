@@ -3,8 +3,9 @@ Shows General Settings
 
 *Subpages*
 - Delete Account
-- Notification
+- Set Notification Options
 - Profil Privacy
+- Newsletter Subscription
 
 **Permission**
 LoggedIn
