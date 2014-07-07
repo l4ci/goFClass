@@ -36,6 +36,7 @@ shows user profil for {userId}
   - psn
   - xbox one
   - twitch
+    - check if streaming right now and show online status (ajax) + embed stream
   - youtube
   - esl
 

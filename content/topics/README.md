@@ -1,6 +1,17 @@
 # Topics
 Shows all topics from `topicCategories` as well as `gameId` and `teamId`
 
+### Sorting Algorythm
+Topics have internal `rating` number - so they automatically get sorted in the right way.
+**Factors:**
+- Date (the topic was posted)
+- Date (the last reply was added)
+- Reply Count
+- View Count
+- Author Role
+- upvotes/downvotes
+
+
 ### Fields topicCategories
 
 - topicCatId (INT (auto_increment)- topic categorie id)
