@@ -5,5 +5,5 @@ removes a team
 - deletes all joined members
 - deletes all topics
 
-**Permission**
+## Permission
 Admins+

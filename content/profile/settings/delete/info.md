@@ -1,5 +1,5 @@
 # Function
 DELETE user account - Form
 
-**Permission**
+## Permission
 LoggedIn

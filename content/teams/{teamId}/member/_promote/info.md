@@ -1,5 +1,5 @@
 # Function
 promotes a teammember to the next higher rank
 
-**Permission**
+## Permission
 Admins+ | Teamleader

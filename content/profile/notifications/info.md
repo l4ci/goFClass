@@ -1,5 +1,5 @@
 # Function
 shows all notifications for the loggedin user
 
-**Permission**
+## Permission
 LoggedIn

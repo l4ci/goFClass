@@ -1,5 +1,5 @@
 # Function
 Newsletter subscribtion - Form
 
-**Permission**
+## Permission
 LoggedIn

@@ -1,7 +1,7 @@
 # Function
 Shows all visible teams with their game
 
-**Team Fields**
+### Fields
 
 - teamId (INT (auto_increment)- team id)
 - gameId (INT - game id)
@@ -18,5 +18,5 @@ Shows all visible teams with their game
 - Ranks (STRING - array of ranks)
   -DEFAULT: {'Officer','Recruiter','Member','Trials'}
 
-**Permission**
+## Permission
 Public

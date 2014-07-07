@@ -1,6 +1,6 @@
 # Function
 shows user profil for {userId}
 
-**Permission**
+## Permission
 depend on user-privacy-settings:
 Public | Member+

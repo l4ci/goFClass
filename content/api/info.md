@@ -1,5 +1,5 @@
 # Function
 api endpoint
 
-**Permission**
+## Permission
 Admins | Developers w/ API-Key

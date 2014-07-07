@@ -1,9 +1,9 @@
 # Function
 Shows single Team by ID
 
-*Subpages*
+### Subpages
 - Member
 - Topics
 
-**Permission**
+## Permission
 Member+

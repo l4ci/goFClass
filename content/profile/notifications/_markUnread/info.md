@@ -1,5 +1,5 @@
 # Function
 marks a notification as unread
 
-**Permission**
+## Permission
 LoggedIn

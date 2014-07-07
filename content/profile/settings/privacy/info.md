@@ -1,5 +1,5 @@
 # Function
 Privacy Options - Form
 
-**Permission**
+## Permission
 LoggedIn+

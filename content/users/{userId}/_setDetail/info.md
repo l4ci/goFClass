@@ -1,5 +1,5 @@
 # Function
 set/changes any user detail
 
-**Permission**
+## Permission
 Admins

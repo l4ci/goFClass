@@ -1,5 +1,5 @@
 # Function
 unbans the user
 
-**Permission**
+## Permission
 Mods+

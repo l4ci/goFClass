@@ -1,5 +1,5 @@
 # Function
 removes a teammember from the team
 
-**Permission**
+## Permission
 Admins+ | Teamleader

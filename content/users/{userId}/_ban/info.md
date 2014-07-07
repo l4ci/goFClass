@@ -1,5 +1,5 @@
 # Function
 bans the user
 
-**Permission**
+## Permission
 Mods+

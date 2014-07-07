@@ -1,7 +1,7 @@
 # Function
 Shows all topics
 
-**Topic Fields**
+### Fields
 
 - topicId (INT (auto_increment)- topic id)
 - gameId (INT - game id)
@@ -20,5 +20,5 @@ Shows all topics
 - downVotes (INT)
 
 
-**Permission**
+## Permission
 Public

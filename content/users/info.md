@@ -1,7 +1,7 @@
 # Function
 shows all users with games/ranks/roles/level
 
-**Users Fields**
+### Fields
 
 - userId (INT (auto_increment) - user id)
 - firstName
@@ -20,5 +20,5 @@ shows all users with games/ranks/roles/level
   - 1: Trial
   - 0: Guest
 
-**Permission**
+## Permission
 Mods+

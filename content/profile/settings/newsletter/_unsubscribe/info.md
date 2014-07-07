@@ -1,5 +1,5 @@
 # Function
 Newsletter unsubscribe
 
-**Permission**
+## Permission
 LoggedIn

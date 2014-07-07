@@ -1,5 +1,5 @@
 # Function
 Shows single Game by ID
 
-**Permission**
+## Permission
 Public

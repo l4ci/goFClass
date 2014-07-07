@@ -1,6 +1,6 @@
 # Function
 Shows single Topic by ID
 
-**Permission**
+## Permission
 depends on topic:
 Public | Member+ | Team

@@ -1,5 +1,5 @@
 # Function
 Add a new game
 
-**Permission**
+## Permission
 Mods+

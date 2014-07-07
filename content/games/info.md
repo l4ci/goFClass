@@ -1,7 +1,7 @@
 # Function
 Shows all visible games
 
-**Game Fields**
+### Fields
 
 - gameId (INT (auto_increment)- game id)
 - subGameId (INT - if subgame - game id of full game)
@@ -15,5 +15,5 @@ Shows all visible games
   - 0: inactive
   - 1: active
 
-**Permission**
+## Permission
 Public

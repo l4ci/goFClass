@@ -1,5 +1,5 @@
 # Function
 join an existing game
 
-**Permission**
+## Permission
 Member+

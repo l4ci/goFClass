@@ -1,5 +1,5 @@
 # Function
 leaves an existing game
 
-**Permission**
+## Permission
 Member+ | only if in game

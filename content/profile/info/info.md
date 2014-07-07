@@ -1,5 +1,5 @@
 # Function
 Shows all Personal Information
 
-**Permission**
+## Permission
 LoggedIn

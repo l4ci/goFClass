@@ -1,5 +1,5 @@
 # Function
 Add a new team
 
-**Permission**
+## Permission
 Member+

@@ -18,5 +18,5 @@ Notification settings
 - by E-Mail
 - by Push
 
-**Permission**
+## Permission
 Public

@@ -7,5 +7,5 @@ Shows General Settings
 - Profil Privacy
 - Newsletter Subscription
 
-**Permission**
+## Permission
 LoggedIn

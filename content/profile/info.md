@@ -1,10 +1,10 @@
 # Function
 User Panel for logged in users
 
-*Subpages*
+### Subpages
 - Settings (View & Change Settings)
 - Info (View & Change Personal Information)
 - Pms (Personal Messages)
 
-**Permission**
+## Permission
 LoggedIn

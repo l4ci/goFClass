@@ -1,5 +1,5 @@
 # Function
 Create a new pm
 
-**Permission**
+## Permission
 Member+

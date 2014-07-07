@@ -1,5 +1,5 @@
 # Function
 shows all topics for this {teamId}
 
-**Permission**
+## Permission
 Mods+ | Teammember

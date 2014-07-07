@@ -1,5 +1,5 @@
 # Function
 shows every team member with their ranks
 
-**Permission**
+## Permission
 Member+

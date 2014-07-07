@@ -1,5 +1,5 @@
 # Function
 set/change the user role
 
-**Permission**
+## Permission
 Admins
