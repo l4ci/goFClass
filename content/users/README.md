@@ -14,6 +14,7 @@ shows all users with games/ranks/roles/level
 - password
 - code (STRING - activation code for account activation or password reset )
 - registrationDate (DATETIME)
+- referralUserId (INT - user id who referred/invited the user)
 - lastloginDate (DATETIME)
 - role (INT)
   - 55555: Admin
