@@ -1,4 +1,4 @@
-# TEAMID
+# TeamId
 Shows single Team by ID
 
 ### Subpages

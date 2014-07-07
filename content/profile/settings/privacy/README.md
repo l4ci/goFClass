@@ -1,4 +1,4 @@
-# Function
+# Privacy
 Privacy Options - Form
 
 ## Permission

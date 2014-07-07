@@ -1,4 +1,4 @@
-# TOPICID
+# TopicId
 Shows single Topic by ID
 
 ### Subpages

@@ -1,4 +1,4 @@
-# PROFILE
+# Profile
 User Panel for logged in users
 
 ### Subpages

@@ -1,4 +1,4 @@
-# Function
+# Notification
 Notification settings
 
 (De)Activate Notifications

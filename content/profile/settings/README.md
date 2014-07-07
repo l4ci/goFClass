@@ -1,4 +1,4 @@
-# Function
+# Settings
 Shows General Settings
 
 *Subpages*

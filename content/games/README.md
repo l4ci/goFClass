@@ -1,4 +1,4 @@
-# GAMES
+# Games
 Shows all visible games
 
 ### Fields

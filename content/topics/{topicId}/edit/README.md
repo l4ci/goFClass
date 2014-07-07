@@ -1,4 +1,4 @@
-# Function
+# Edit
 Edits a topic - Form
 
 ## Permission

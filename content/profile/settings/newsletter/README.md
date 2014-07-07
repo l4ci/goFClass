@@ -1,4 +1,4 @@
-# Function
+# Newsletter
 Newsletter subscribtion - Form
 
 ## Permission

@@ -1,4 +1,4 @@
-# Function
+# Info
 Shows all Personal Information
 
 ## Permission

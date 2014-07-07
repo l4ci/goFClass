@@ -1,4 +1,4 @@
-# TEAMS
+# Teams
 Shows all visible teams with their game
 
 ### Fields

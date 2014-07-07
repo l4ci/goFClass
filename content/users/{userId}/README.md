@@ -1,4 +1,4 @@
-# USER
+# UserId
 shows user profil for {userId}
 
 ## Permission

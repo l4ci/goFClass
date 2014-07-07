@@ -1,4 +1,4 @@
-# GAMEID
+# GameId
 Shows single Game by ID
 
 ## Permission

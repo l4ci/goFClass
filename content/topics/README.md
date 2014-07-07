@@ -1,4 +1,4 @@
-# TOPICS
+# Topics
 Shows all topics
 
 ### Fields
