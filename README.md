@@ -1,26 +1,11 @@
 #goFClass
 
-Collection of ideas and inspiration for php classes
+```
+/content - holds sitemap
 
-```php
-class Beispiel{
+subpage - normal folder
+_function - function for the folder
+{variable} - request id
+info.md - information for folder/function/structure
 
-	/**
-	 * [a description]
-	 * @return {[type]} [description]
-	 */
-	function a(){}
-
-	// HELPER: a()
-	function helperA(){}
-	
-
-	/**
-	 * [b description]
-	 * @return {[type]} [description]
-	 */
-	function b(){}
-
-
-}
 ```
