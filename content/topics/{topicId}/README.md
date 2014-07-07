@@ -1,4 +1,4 @@
-# Function
+# TOPICID
 Shows single Topic by ID
 
 ### Subpages

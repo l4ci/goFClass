@@ -1,4 +1,4 @@
-# Function
+# USERS
 shows all users with games/ranks/roles/level
 
 ### Fields

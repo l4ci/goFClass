@@ -1,4 +1,4 @@
-# Function
+# TOPICS
 Shows all topics
 
 ### Fields

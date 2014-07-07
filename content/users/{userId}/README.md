@@ -1,4 +1,4 @@
-# Function
+# USER
 shows user profil for {userId}
 
 ## Permission

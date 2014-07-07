@@ -1,4 +1,4 @@
-# Function
+# AUTH
 Authentication
 
 ### Subpages

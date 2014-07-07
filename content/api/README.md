@@ -1,4 +1,4 @@
-# Function
+# API
 api endpoint
 
 ## Permission

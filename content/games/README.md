@@ -1,4 +1,4 @@
-# Function
+# GAMES
 Shows all visible games
 
 ### Fields

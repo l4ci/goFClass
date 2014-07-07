@@ -1,4 +1,4 @@
-# Function
+# PROFILE
 User Panel for logged in users
 
 ### Subpages
