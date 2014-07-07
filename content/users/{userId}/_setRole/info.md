@@ -1,7 +1,7 @@
 **Function**
-set the user role
+set/change the user role
 
-*Role*
+*Roles*
 - Admin
 - Moderator
 - Member
