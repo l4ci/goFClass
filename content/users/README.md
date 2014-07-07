@@ -1,6 +1,9 @@
 # Users
 shows all users with games/ranks/roles/level
 
+### Subpages
+- ->Badges
+
 ### Fields
 
 - userId (INT (auto_increment) - user id)
