@@ -26,4 +26,5 @@ shows all badges and achievements
 
 
 ## Permission
-LoggedIn
+depend on user-privacy-settings:
+Public | Member+

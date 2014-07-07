@@ -1,6 +1,9 @@
 # UserId
 shows user profil for {userId}
 
+### Subpages
+- Badges (Shows Badges & Achievements for {userId})
+
 ### Fields
 
 - userId (INT (auto_increment) - user id)
@@ -33,6 +36,7 @@ shows user profil for {userId}
   - psn
   - xbox one
   - twitch
+  - youtube
   - esl
 
 ## Permission

@@ -1,8 +1,6 @@
 # Topics
 Shows all topics from `topicCategories` as well as `gameId` and `teamId`
 
-
-
 ### Fields topicCategories
 
 - topicCatId (INT (auto_increment)- topic categorie id)
