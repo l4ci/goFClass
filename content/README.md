@@ -27,5 +27,7 @@ README.md - information for folder/function/structure
 
 ## Topics
 
-- Topics acts like a global forum
+- Topics act like a global forum
 - Only topics related to the users: `games` `teams` are visible to the user
+- Topics are also shown unter `gameId` `teamId`
+
