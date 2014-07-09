@@ -1,5 +1,5 @@
 # Tracking Class
-Class for tracking online users
+Class for tracking
 
 ### Functions
 - onlineUser

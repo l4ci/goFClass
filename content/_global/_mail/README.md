@@ -2,8 +2,9 @@
 Class for generating emails of all kind
 
 Using:
-phpmailer (https://github.com/PHPMailer/PHPMailer)
-mailchimp
+
+- phpmailer (https://github.com/PHPMailer/PHPMailer)
+- mailchimp
 
 Something like:
 
