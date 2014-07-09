@@ -1,2 +1,0 @@
-# Guard
-Security Permission function
