@@ -6,6 +6,7 @@ Admin & Mod Panel for administration/statistic
 ### Subpages
 - Settings (View & Change Settings)
 - Statistics
+- users
 
 ## Permission
-Mod+
+Admins+
