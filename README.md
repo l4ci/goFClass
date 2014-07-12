@@ -1,6 +1,6 @@
 #goFClass
 
 ```
-/content - holds sitemap
+/app - holds sitemap / functional sitemap
 /class - ignore for now
 ```
