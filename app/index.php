@@ -39,10 +39,19 @@ if (!defined('ROOT')) define('ROOT', dirname(__FILE__));
      ========================================================================== */
      date_default_timezone_set( c::get('TIME_ZONE') );
 
+  /* START - SESSION
+     ========================================================================== */
+     s::start();
+
 
 /* ==========================================================================
    ROUTER
    ========================================================================== */
 
+  $app = new Slim();
+    require c::get('ROOT_LIB') . DS . 'public.php';
+    // require c::get('ROOT_LIB') . DS . 'member.php';
+    // require c::get('ROOT_LIB') . DS . 'admin.php';
+  $app->run();
 
 ob_end_flush(); // do not close php tags in .php files
