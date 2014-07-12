@@ -1,0 +1,8 @@
+// Disable Directory Listings
+Options -Indexes
+
+// Disable README.md from Browser
+<FilesMatch "\(README.md)$">
+  Order Deny,Allow
+  Deny from all
+</FilesMatch>
