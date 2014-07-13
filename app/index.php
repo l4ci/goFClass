@@ -42,7 +42,7 @@ if (!defined('APP'))  define('APP' , 'goFClass');
 
   /* SET - TIMEZONE
      ========================================================================== */
-     date_default_timezone_set( c::get('TIME_ZONE') );
+     @date_default_timezone_set( c::get('TIME_ZONE') );
 
 
   /* START - SESSION

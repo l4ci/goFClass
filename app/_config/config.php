@@ -17,6 +17,7 @@ if(!defined('APP')) die('Direct access is not allowed');
    $config['ROOT_ROUTE']      = ROOT . DS . '_route';
    $config['ROOT_VENDOR']     = ROOT . DS . '_vendor';
    $config['ROOT_PAGES']      = ROOT . DS . '_pages';
+   $config['ROOT_SNIPPETS']   = ROOT . DS . '_pages' . DS . '_snippets';
 
 /* DATABASE
    ========================================================================== */
