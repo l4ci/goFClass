@@ -1,13 +1,24 @@
 <?php
-/* ==========================================================================
-   SESSION - CLASS
-   ========================================================================== */
-class s {
+
+/**
+ * Session
+ *
+ * Handles all session fiddling
+ *
+ * @package   Kirby Toolkit
+ * @author    Bastian Allgeier <bastian@getkirby.com>
+ * @link      http://getkirby.com
+ * @copyright Bastian Allgeier
+ * @license   http://www.opensource.org/licenses/mit-license.php MIT License
+ */
+class S {
 
   static protected $started = false;
 
   /**
    * Returns the current session id
+   *
+   * @return string
    */
   static public function id() {
     return session_id();
@@ -18,7 +29,7 @@ class s {
    *
    * <code>
    *
-   * s::set('username', 'peter');
+   * s::set('username', 'bastian');
    * // saves the username in the session
    *
    * s::set(array(
@@ -47,11 +58,11 @@ class s {
    *
    * <code>
    *
-   * s::get('username', 'peter');
+   * s::get('username', 'bastian');
    * // saves the username in the session
    *
    * echo s::get('username');
-   * // output: 'peter'
+   * // output: 'bastian'
    *
    * </code>
    *
@@ -71,7 +82,7 @@ class s {
    * <code>
    *
    * $_SESSION = array(
-   *     'username' => 'peter',
+   *     'username' => 'bastian',
    *     'id' => 1,
    * );
    *
@@ -96,6 +107,7 @@ class s {
    * <code>
    *
    * s::start();
+   * // do whatever you want with the session now
    *
    * </code>
    *
@@ -112,6 +124,7 @@ class s {
    * <code>
    *
    * s::start();
+   * // do whatever you want with the session now
    *
    * s::destroy();
    * // everything stored in the session will be deleted

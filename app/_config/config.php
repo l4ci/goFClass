@@ -14,6 +14,7 @@
    $config['ROOT_LIB']        = ROOT . DS . '_lib';
    $config['ROOT_ROUTE']      = ROOT . DS . '_route';
    $config['ROOT_VENDOR']     = ROOT . DS . '_vendor';
+   $config['ROOT_PAGES']      = ROOT . DS . '_pages';
 
 /* DATABASE
    ========================================================================== */
