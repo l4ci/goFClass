@@ -9,7 +9,7 @@ if (!defined('ROOT')) define('ROOT', dirname(__FILE__));
 
   /* LOAD - LIB
      ========================================================================== */
-    require_once(ROOT . DS . '_lib' . DS . 'lib.php');
+    require_once(ROOT . DS . '_lib' . DS . '_init.php');
 
 
   /* LOAD - CONFIGS

@@ -21,3 +21,6 @@ spl_autoload_register(function($className)){
 
   // Load Mailchimp
   require_once (c::get('ROOT_VENDOR') . DS . 'mailchimp-api' . DS . 'mailchimp.php');
+
+  // Load Parsedown
+  require_once (c::get('ROOT_VENDOR') . DS . 'parsedown' . DS . 'Parsedown.php');
