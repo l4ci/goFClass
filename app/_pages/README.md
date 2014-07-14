@@ -6,8 +6,8 @@ holds the functional sitemap
 ```
 subpage - page
 _function - function for the page
-{variable} - request id
-->link - links to another folder/{function}
+[variable] - request id
+->link - links to another folder/[function]
 
 README.md - information for folder/function/structure
 
