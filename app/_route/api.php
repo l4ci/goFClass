@@ -2,7 +2,8 @@
 if(!defined('APP')) die('Direct access is not allowed');
 
 /* ==========================================================================
-   CONFIG - URL
-   Overwrites default values for URL/Adress
+   ROUTER - PUBLIC
    ========================================================================== */
-$config['ERROR_REPORTING'] = true;
+$app->get('/api', function(){
+  echo "API";
+});

@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="index,follow">
 
-  <title></title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title><?=$title?></title>
+  <meta name="description" content="<?=$description?>">
+  <meta name="keywords" content="<?=$keywords?>">
 
-  <link rel="canonical" href="">
+  <link rel="canonical" href="<?=c::get('URL')?>">
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 

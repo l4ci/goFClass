@@ -4,8 +4,6 @@ if (!defined('APP'))  define('APP' , 'goFClass');
 if (!defined('DS'))   define('DS'  , DIRECTORY_SEPARATOR);
 
 if (!defined('ROOT')) define('ROOT', dirname(__FILE__));
-
-// Paths
 if (!defined('APP_PATH')) define('APP_PATH', ROOT . DS . 'app' . DS);
 
 
@@ -32,6 +30,8 @@ if (!defined('APP_PATH')) define('APP_PATH', ROOT . DS . 'app' . DS);
       if(file_exists($configFile)) require_once($configFile);
     }
     c::set($config);
+    // Set Template Defaults
+    Tpl::set(c::get('TPL'));
 
     /* LOAD - VENDORS
    ========================================================================== */
@@ -57,13 +57,13 @@ if (!defined('APP_PATH')) define('APP_PATH', ROOT . DS . 'app' . DS);
      ========================================================================== */
      s::start();
 
-
 /* ==========================================================================
    ROUTER
    ========================================================================== */
   $app = new \Slim\Slim(); //array('debug' => true)
 
     require_once(c::get('APP_PATH_ROUTE') . 'public.php');
+    require_once(c::get('APP_PATH_ROUTE') . 'api.php');
 
   $app->run();
 

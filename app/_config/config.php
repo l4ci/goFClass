@@ -5,8 +5,17 @@ if(!defined('APP')) die('Direct access is not allowed');
    CONFIG - LIVE
    ========================================================================== */
     $config['ERROR_REPORTING'] = false;
-    $config['TIME_ZONE']       = "Europe/Berlin";
+    $config['TIME_ZONE']       = 'Europe/Berlin';
     $config['CACHE']           = false;
+
+    $config['URL']           = 'http://site.url/';
+
+
+/* TEMPLATE - DEFAULTS
+   ========================================================================== */
+    $config['TPL']['title']       = 'goFClass';
+    $config['TPL']['description'] = 'This is the home of goFClass';
+    $config['TPL']['keywords']    = 'home,page,gof,class';
 
 
 /* FOLDERS
