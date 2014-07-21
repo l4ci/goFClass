@@ -5,6 +5,8 @@
 
 *.scssc
 
+*.codekit
+
 .codekit-cache
 
 .sass-cache
