@@ -7,15 +7,9 @@ Options -Indexes
   Deny from all
 </FilesMatch>
 
+// Route everything over app/webroot/
 <IfModule mod_rewrite.c>
-
-RewriteEngine On
-RewriteBase /
-
-// Route everything over index.php
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ index.php [QSA,L]
+   RewriteEngine on
+   RewriteRule    ^$ app/webroot/    [L]
+   RewriteRule    (.*) app/webroot/$1 [L]
 </IfModule>
-
-AddDefaultCharset UTF-8
-# php_flag short_open_tag on

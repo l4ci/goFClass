@@ -4,20 +4,24 @@ if(!defined('APP')) die('Direct access is not allowed');
 /* ==========================================================================
    CONFIG - LIVE
    ========================================================================== */
-   $config['ERROR_REPORTING'] = false;
-   $config['TIME_ZONE']       = "Europe/Berlin";
-   $config['CACHE']           = false;
+    $config['ERROR_REPORTING'] = false;
+    $config['TIME_ZONE']       = "Europe/Berlin";
+    $config['CACHE']           = false;
 
 
 /* FOLDERS
    ========================================================================== */
-   $config['ROOT']            = ROOT;
-   $config['ROOT_CONFIG']     = ROOT . DS . '_config';
-   $config['ROOT_LIB']        = ROOT . DS . '_lib';
-   $config['ROOT_ROUTE']      = ROOT . DS . '_route';
-   $config['ROOT_VENDOR']     = ROOT . DS . '_vendor';
-   $config['ROOT_PAGES']      = ROOT . DS . '_pages';
-   $config['ROOT_SNIPPETS']   = ROOT . DS . '_pages' . DS . '_snippets';
+    $config['ROOT']              = ROOT;
+
+    $config['APP_PATH']          = APP_PATH;
+    $config['APP_PATH_CONFIG']   = APP_PATH . '_config' . DS;
+    $config['APP_PATH_LIB']      = APP_PATH . '_lib' . DS;
+    $config['APP_PATH_ROUTE']    = APP_PATH . '_route' . DS;
+    $config['APP_PATH_VENDOR']   = APP_PATH . '_vendor' . DS;
+    $config['APP_PATH_PAGES']    = APP_PATH . '_pages' . DS;
+    $config['APP_PATH_SNIPPETS'] = APP_PATH . '_pages' . DS . '_snippets' . DS;
+
+    $config['WWW_PATH']          = WWW_PATH;
 
 /* DATABASE
    ========================================================================== */
