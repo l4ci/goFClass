@@ -1,5 +1,5 @@
 <?php
-//if(!defined('APP')) die('Direct access is not allowed');
+if(!defined('APP')) die('Direct access is not allowed');
 
 /* ==========================================================================
    ROUTER - PUBLIC

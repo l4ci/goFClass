@@ -61,10 +61,10 @@ if (!defined('APP_PATH')) define('APP_PATH', ROOT . DS . 'app' . DS);
 /* ==========================================================================
    ROUTER
    ========================================================================== */
-  $app = new \Slim\Slim();//array('debug' => true)
+  $app = new \Slim\Slim(); //array('debug' => true)
 
     require_once(c::get('APP_PATH_ROUTE') . 'public.php');
 
   $app->run();
 
-ob_end_flush(); // do not close php tags in .php files
+ob_end_flush();
