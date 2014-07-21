@@ -12,7 +12,7 @@
   <meta name="keywords" content="">
 
   <link rel="canonical" href="">
-  <link rel="stylesheet" href="/assets/css/main.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body>

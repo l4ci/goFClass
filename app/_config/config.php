@@ -21,7 +21,5 @@ if(!defined('APP')) die('Direct access is not allowed');
     $config['APP_PATH_PAGES']    = APP_PATH . '_pages' . DS;
     $config['APP_PATH_SNIPPETS'] = APP_PATH . '_pages' . DS . '_snippets' . DS;
 
-    $config['WWW_PATH']          = WWW_PATH;
-
 /* DATABASE
    ========================================================================== */
