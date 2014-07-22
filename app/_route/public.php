@@ -6,12 +6,18 @@ if(!defined('APP')) die('Direct access is not allowed');
    ========================================================================== */
 $app->get('/', function(){
 
-  $page = array('title' => 'Welcome');
-  snippet('header',$page);
+  $pageVARS = array(
+      'title' => 'Welcome',
+      'css' => false, // string/array - without file extension ".css"
+      'js' => false // string/array - without file extension ".js"
+      );
+
+  snippet('header',$pageVARS);
 
   echo "Home Page";
 
-  snippet('footer');
+  snippet('footer',$pageVARS);
+
 });
 
 $app->get('/hello/:name', function ($name) {

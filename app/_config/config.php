@@ -8,14 +8,13 @@ if(!defined('APP')) die('Direct access is not allowed');
     $config['TIME_ZONE']       = 'Europe/Berlin';
     $config['CACHE']           = false;
 
-    $config['URL']           = 'http://site.url/';
 
-
-/* TEMPLATE - DEFAULTS
+/* SITE - DEFAULTS
    ========================================================================== */
-    $config['TPL']['title']       = 'goFClass';
-    $config['TPL']['description'] = 'This is the home of goFClass';
-    $config['TPL']['keywords']    = 'home,page,gof,class';
+    $config['SITE_URL']         = 'http://site.url/';
+    $config['SITE_TITLE']       = 'goFClass';
+    $config['SITE_DESCRIPTION'] = 'This is the home of goFClass';
+    $config['SITE_KEYWORDS']    = 'home,page,gof,class';
 
 
 /* FOLDERS

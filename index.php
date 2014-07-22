@@ -30,8 +30,6 @@ if (!defined('APP_PATH')) define('APP_PATH', ROOT . DS . 'app' . DS);
       if(file_exists($configFile)) require_once($configFile);
     }
     c::set($config);
-    // Set Template Defaults
-    Tpl::set(c::get('TPL'));
 
     /* LOAD - VENDORS
    ========================================================================== */

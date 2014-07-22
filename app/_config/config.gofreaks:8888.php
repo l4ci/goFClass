@@ -7,4 +7,4 @@ if(!defined('APP')) die('Direct access is not allowed');
    ========================================================================== */
 $config['ERROR_REPORTING'] = true;
 
-$config['URL']           = 'http://gofreaks:8888/';
+$config['SITE_URL']           = 'http://gofreaks:8888/';
