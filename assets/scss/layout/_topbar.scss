@@ -1,0 +1,81 @@
+/* TOPBAR
+   ========================================================================== */
+
+.topBar{
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background: $color-black;
+  height: $topbar-height;
+  text-align: left;
+}
+
+/* Global Container
+ * - is everything except topBar */
+.globalContainer{
+  margin-top: $topbar-height;
+}
+
+.logo{
+  @include span(2);
+
+  font-weight: bold;
+  color: rgba(white,.3  );
+  line-height: $topbar-height;
+
+  &:hover{
+    color: white;
+  }
+}
+
+.topbar-buttons{
+  @include span(5);
+  float: right;
+  text-align: right;
+}
+
+/* NOTIFICATIONS
+   ========================================================================== */
+.notifications{
+  @include span(5);
+  float: right;
+  text-align: right;
+
+  .badge{
+    position: absolute;
+    top: .5rem;
+    left: 1.5rem;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 .3rem .1rem;
+    text-align: center;
+    background: $color-red;
+    font-size: $font-size-h7;
+    font-weight: normal;
+    color: white;
+    max-width: 1.6rem;
+    overflow: hidden;
+  }
+
+  ul{
+    @include horizontal-list;
+
+    li{
+      position: relative;
+      padding: .8rem;
+      color: $color-grey;
+      cursor: pointer;
+
+      &:hover{
+        color: $color-grey--light;
+      }
+      &:active,
+      &:focus,
+      &:active:focus,
+      &.active{
+        color: white;
+      }
+    }
+  }
+}

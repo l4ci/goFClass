@@ -1,0 +1,35 @@
+.btn{
+  display: inline-block;
+  margin: .7rem .5rem;
+  padding: .2rem .5rem;
+  border: 1px solid rgba(white,.2);
+  background: rgba($color-primary,.5);
+  color: rgba(white,.8);
+  font-size: $font-size-h6;
+  border-radius: 5px;
+
+  &:hover,
+  &:active,
+  &:focus,
+  &:active:focus{
+    background: rgba($color-primary,.8);
+    color: rgba(white,1);
+    outline: none;
+  }
+
+  &.btn--full{
+    padding: .7rem .5rem;
+    margin: 1rem 0;
+    width: 100%;
+    font-size: $font-size-p;
+    border-radius: 5px;
+    background: rgba($color-primary,1);
+
+    &:hover,
+    &:active,
+    &:focus,
+    &:active:focus{
+      background: darken($color-primary,5%);
+    }
+  }
+}

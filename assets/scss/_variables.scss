@@ -1,0 +1,51 @@
+/* ==========================================================================
+   1. VARIABLES
+   ========================================================================== */
+
+  /* 1.1. COLORS
+     ========================================================================== */
+    $color-black: #141823;
+    $color-body: #E9EAED;
+
+    $color-grey: #5A6772;
+    $color-grey--light: lighten($color-grey,45%);
+    $color-grey--dark: darken($color-grey,15%);
+
+    $color-red: #E15258;
+    $color-green: #88b759;
+    $color-aqua: #53BBB4;
+    $color-blue: #3079AB;
+    $color-blue--variant: #838CC7;
+    $color-purple: #a88ade;
+    $color-orange: #F9845B;
+    $color-yellow: #E0AB18;
+
+    $color-neon-blue: #0BF;
+
+  /* 1.2. COLOR DEFINITION
+     ========================================================================== */
+    $color-primary: $color-neon-blue;
+    $color-secondary: $color-blue--variant;
+
+    $color-danger: $color-red;
+    $color-error: $color-red;
+    $color-success: $color-green;
+    $color-info: $color-aqua;
+
+
+  /* 1.3. FONT-SIZES
+     ========================================================================== */
+    $font-size-h1: 3rem;
+    $font-size-h2: 2.5rem;
+    $font-size-h3: 2rem;
+    $font-size-h4: 1.5rem;
+    $font-size-h5: 1rem;
+    $font-size-h6: .9rem;
+    $font-size-h7: .7rem;
+    $font-size-h8: .5rem;
+    $font-size-p: 1rem;
+
+
+    $footer-height: 3.125rem;
+    $topbar-height: 3.125rem;
+
