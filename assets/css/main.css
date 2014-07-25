@@ -1,3 +1,309 @@
+/**
+ * Description: main css file
+ * Version: 1.0.1
+ * Last update: 2014/07/25
+ * Author: Volker Otto <hello@volkerotto.net>
+ *
+ * Summary:
+ *
+ *  1. Variables
+ *    - 1.1. Colors
+ *    - 1.2. Definition
+ *    - 1.3. Font-Sizes
+ *  2. Imports
+ *  3. Mixins
+ *    - 3.1. Lists
+ *  4. Basics
+ *  5. Typography
+ *    - 5.1. Hero
+ *
+ */
+/* ==========================================================================
+   1. VARIABLES
+   ========================================================================== */
+/* 1.1. COLORS
+   ========================================================================== */
+/* 1.2. COLOR DEFINITION
+   ========================================================================== */
+/* 1.3. FONT-SIZES
+   ========================================================================== */
+/* ==========================================================================
+   2. IMPORT
+   ========================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+/* ==========================================================================
+   3. MIXINS
+   ========================================================================== */
+.group:after {
+  content: "";
+  display: table;
+  clear: both; }
 
+/* 3.1. LISTS
+   ========================================================================== */
+/* ==========================================================================
+   4. BASICS
+   ========================================================================== */
+html {
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  background: none; }
 
-/*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica, sans-serif;
+  font-size: 100%;
+  text-rendering: optimizeLegibility;
+  font-smoothing: antialiased;
+  line-height: 1.45;
+  background: #e9eaed;
+  color: #141823; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+/* ==========================================================================
+   CONTAINER
+   ========================================================================== */
+.container {
+  position: relative;
+  min-height: 1px;
+  height: auto;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px; }
+
+/* Top Bar */
+.topBar {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background: #141823;
+  height: 3.125rem;
+  text-align: left; }
+
+/* Global Container
+ * - is everything except topBar */
+.globalContainer {
+  margin-top: 3.125rem; }
+
+/* ==========================================================================
+   Notifications
+   ========================================================================== */
+.notifications {
+  position: absolute;
+  top: 0;
+  right: 0; }
+  .notifications .badge {
+    position: absolute;
+    top: .3rem;
+    left: 1.8rem;
+    border-radius: 5px;
+    padding: 0 .3rem .1rem;
+    text-align: center;
+    display: inline-block;
+    background: #e15258;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: white; }
+  .notifications ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0; }
+    .notifications ul li {
+      font-size: 1rem;
+      display: inline-block; }
+    .notifications ul li {
+      position: relative;
+      padding: .8rem;
+      color: #5a6772;
+      cursor: pointer; }
+      .notifications ul li:hover {
+        color: #d4d9dd; }
+      .notifications ul li:active, .notifications ul li:focus, .notifications ul li:active:focus, .notifications ul li.active {
+        color: white; }
+
+.header {
+  background: #00bbff;
+  color: white; }
+
+/* ==========================================================================
+   Main Content
+   ========================================================================== */
+.fullBox {
+  display: inline-block;
+  width: 60%;
+  padding: 1rem; }
+
+/* Side Bar
+   ========================================================================== */
+.sideBar {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  margin: 2rem 0 0;
+  padding: 0;
+  text-align: left;
+  border-radius: 5px;
+  overflow: hidden; }
+  .sideBar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #d4d9dd;
+    margin: 0;
+    padding: 0; }
+    .sideBar ul li {
+      font-size: 1rem;
+      display: block; }
+    .sideBar ul li {
+      font-size: 0.9rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+      .sideBar ul li:last-child {
+        border-bottom: none; }
+    .sideBar ul a {
+      display: block;
+      padding: .5rem 1rem;
+      color: #384047;
+      border-left: 3px solid transparent; }
+      .sideBar ul a:hover {
+        background: rgba(0, 0, 0, 0.1);
+        border-left-color: #00bbff; }
+      .sideBar ul a.active {
+        border-left-color: #00bbff; }
+
+/* Sub Navigation
+   ========================================================================== */
+.subNav {
+  background: #384047; }
+  .subNav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0; }
+    .subNav ul li {
+      font-size: 1rem;
+      display: inline-block; }
+    .subNav ul li {
+      font-size: 0.9rem;
+      border-left: 1px solid rgba(0, 0, 0, 0.1); }
+      .subNav ul li:last-child {
+        border-right: 1px solid rgba(0, 0, 0, 0.1); }
+    .subNav ul a {
+      display: block;
+      padding: 1rem;
+      background: #384047;
+      color: #d4d9dd;
+      border-bottom: 3px solid transparent; }
+      .subNav ul a:hover {
+        background: #3d464d;
+        color: white; }
+      .subNav ul a.active {
+        border-bottom-color: #00bbff; }
+
+/* Filter Bar
+   ========================================================================== */
+.filterBar {
+  text-align: right;
+  background: #d4d9dd;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  .filterBar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0; }
+    .filterBar ul li {
+      font-size: 1rem;
+      display: inline-block; }
+    .filterBar ul li {
+      font-size: 0.7rem; }
+    .filterBar ul span,
+    .filterBar ul a {
+      display: block;
+      padding: .5rem 1rem;
+      color: #384047;
+      border-bottom: 3px solid transparent; }
+    .filterBar ul a:hover {
+      background: rgba(0, 0, 0, 0.1); }
+    .filterBar ul a.active {
+      border-bottom-color: rgba(0, 0, 0, 0.2); }
+
+/* Footer
+   ========================================================================== */
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: .5rem; }
+  .footer ul li {
+    font-size: 1rem;
+    display: inline-block; }
+  .footer ul li {
+    margin: .2rem 1rem 0 .2rem;
+    font-size: 0.7rem; }
+  .footer ul a {
+    color: #5a6772; }
+    .footer ul a:hover {
+      color: #384047; }
+
+.logo {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.3);
+  line-height: 3.125rem; }
+  .logo:hover {
+    color: white; }
+
+/* ==========================================================================
+   5. TYPOGRAPHY
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+p, .p,
+ul, .ul, ol, .ol {
+  margin: 0 0 1rem;
+  padding: 0; }
+
+h1, .h1 {
+  font-size: 3rem; }
+
+h2, .h2 {
+  font-size: 2.5rem; }
+
+h3, .h3 {
+  font-size: 2rem; }
+
+h4, .h4 {
+  font-size: 1.5rem; }
+
+h5, .h5 {
+  font-size: 1rem; }
+
+h6, .h6 {
+  font-size: 0.9rem; }
+
+/* 5.1 HERO
+   ========================================================================== */
+.hero {
+  text-align: left;
+  padding: 1rem 0; }
+  .hero .hero-head {
+    font-size: 3rem;
+    font-weight: 300; }
+  .hero .hero-lead {
+    font-size: 1rem; }
