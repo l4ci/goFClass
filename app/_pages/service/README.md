@@ -6,7 +6,7 @@ global service pages
 - impressum
 - agb
 - server status (ts down?)
-- client status (is client browser offline)
+- client status (is client browser offline - http://robertnyman.com/html5/offline/online-offline-events.html)
 
 
 ## Permission

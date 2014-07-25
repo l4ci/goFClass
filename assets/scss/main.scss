@@ -144,6 +144,17 @@ body{
   box-sizing: border-box;
 }
 
+
+/* Viewport Fix */
+@-ms-viewport {
+  width: device-width;
+}
+
+@viewport {
+  width: device-width;
+}
+
+
 a{
   text-decoration: none;
 
