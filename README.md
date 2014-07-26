@@ -6,5 +6,5 @@
 .editorconfig - Editorconfig Configuration File (http://editorconfig.org/)
 index.php - Router
 assets - all public assets files
-
+frontend - concept mockup of the page
 ```
