@@ -7,25 +7,38 @@
 
 @charset "utf-8";
 
+// Variables
 @import "variables";
 
+// Normalize & Imports
 @import "generic/normalize";
 @import "generic/imports";
 
+/* BASICS
+   ========================================================================== */
 @import "base/mixins";
 @import "base/basics";
 @import "base/typo";
 @import "base/btn";
 
+// SUSY GRID
 @import "susy";
 @import "base/grid";
 
+/* LAYOUT
+   ========================================================================== */
 @import "layout/topbar";
 @import "layout/header";
 @import "layout/maincontent";
 @import "layout/subnav";
 @import "layout/filterbar";
-
-@import "layout/fullscreen";
-
 @import "layout/footer";
+
+/* PAGES
+   ========================================================================== */
+@import "pages/fullscreen";
+@import "pages/l404";
+
+/* EXTENSIONS
+   ========================================================================== */
+@import "ext/bubble";
