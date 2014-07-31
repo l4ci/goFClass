@@ -1,45 +1,9 @@
 .btn{
   display: inline-block;
-  margin: .7rem .5rem;
-  padding: .3rem .5rem;
-  border: none;
-  background: rgba($color-primary,.5);
-  color: rgba(white,.9);
-  font-size: $font-size-h6;
-  border-radius: 5px;
-
-  &:hover,
-  &:active,
-  &:focus,
-  &:active:focus{
-    background: rgba($color-primary,.8);
-    color: rgba(white,1);
-    outline: none;
-  }
-
-  &.btn--full{
-    padding: .7rem .5rem;
-    margin: 1rem 0;
-    width: 100%;
-    font-size: $font-size-p;
-    border-radius: 5px;
-    background: rgba($color-primary,1);
-
-    &:hover,
-    &:active,
-    &:focus,
-    &:active:focus{
-      background: darken($color-primary,5%);
-    }
-  }
-}
-
-.btn{
-  display: inline-block;
   padding: .6rem .8rem;
   margin: 1rem 0 0;
   font-size: .9rem;
-  border-radius: 2px;
+  border-radius: $border-radius;
   transition: all .2s;
   border: none;
   letter-spacing: 1px;
@@ -52,6 +16,9 @@
     display: block;
     width: 100%;
   }
+  &.btn-no-margin{
+    margin: 0;
+  }
 
   &:hover{
     background: rgba(black,.3);
@@ -59,7 +26,10 @@
     outline: none;
     box-shadow: 0 1px 1px rgba(black,.3),0 0 0 1px rgba(white,.3) inset;
   }
-  &:focus{
+
+  &:active,
+  &:focus,
+  &:active:focus{
     outline: none;
     background: rgba(black,.1);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6) inset,0 0 0 1px rgba(255, 255, 255, 0.07) inset;
@@ -74,9 +44,51 @@
       background-image: linear-gradient(to bottom,$color-blue--light,$color-blue);
       outline: none;
     }
-    &:focus{
+
+    &:active,
+    &:focus,
+    &:active:focus{
       outline: none;
       background: $color-blue--dark;
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6) inset,0 0 0 1px rgba(255, 255, 255, 0.07) inset;
+    }
+  }
+  &.btn-error,
+  &.btn-danger{
+    background: $color-red;
+    color: #fff;
+    background-image: linear-gradient(to bottom,$color-red,$color-red--dark);
+
+    &:hover{
+      background-image: linear-gradient(to bottom,$color-red--light,$color-red);
+      outline: none;
+    }
+
+    &:active,
+    &:focus,
+    &:active:focus{
+      outline: none;
+      background: $color-red--dark;
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6) inset,0 0 0 1px rgba(255, 255, 255, 0.07) inset;
+    }
+  }
+
+  &.btn-success,
+  &.btn-okay{
+    background: $color-green;
+    color: #fff;
+    background-image: linear-gradient(to bottom,$color-green,$color-green--dark);
+
+    &:hover{
+      background-image: linear-gradient(to bottom,$color-green--light,$color-green);
+      outline: none;
+    }
+
+    &:active,
+    &:focus,
+    &:active:focus{
+      outline: none;
+      background: $color-green--dark;
       box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6) inset,0 0 0 1px rgba(255, 255, 255, 0.07) inset;
     }
   }

@@ -11,6 +11,7 @@
   padding: 0 1rem;
 
   &.box--white{
+    border-radius: $border-radius;
     background: white;
     border: 1px solid $color-grey--light;
     padding: 1rem;

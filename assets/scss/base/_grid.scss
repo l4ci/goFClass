@@ -31,7 +31,19 @@ $susy: (
 }
 .halfSize{
   @include span(6);
+
+  @include bp($bp-m){
+    @include span(12);
+  }
 }
 .quarterSize{
-  @include span(4);
+  @include span(3);
+
+  @include bp($bp-l){
+    @include span(6);
+  }
+  @include bp($bp-m){
+    @include span(12);
+  }
+
 }

@@ -32,3 +32,14 @@
         display: block;
       }
     }
+
+/* BREAKPOINTS
+   ========================================================================== */
+
+@mixin bp($point,$width:"max-width") {
+  @if ($MQs == true) {
+    @media (unquote($width) : $point){
+      @content;
+    }
+  }
+}

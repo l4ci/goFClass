@@ -9,7 +9,7 @@
   border: 1px solid rgba(white,.1);
   font-size: .9rem;
   padding: .6rem 1rem;
-  border-radius: 3px;
+  border-radius: $border-radius;
   color: rgba(white,.8);
   background: rgba(black,.1);
 
@@ -99,15 +99,16 @@ input.password-helper{
   padding-right: 3rem;
 }
 .password-helper-span{
-  display: block;
-  content:'SHOW';
-  font-size: .8rem;
   position: absolute;
-  top: .8rem;
+  top: .85rem;
   right: .5rem;
+  display: block;
   padding: .2rem;
+  content:'SHOW';
+  font-size: .6rem;
+  font-weight: bold;
   background: rgba(white,.2);
-  border-radius: 3px;
+  border-radius: $border-radius;
 
   &:hover{
     background: $color-blue;
@@ -120,6 +121,11 @@ label{
   font-size: .9rem;
   //color: $color-blue;
   color: rgba(white,.4);
+
+  &:hover{
+    cursor: pointer;
+    color: rgba(white,.6);
+  }
 }
 
 input[type="checkbox"]{
