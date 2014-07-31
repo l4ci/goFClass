@@ -4,7 +4,7 @@
 .topBar{
   position: fixed;
   top: 0;
-  z-index: 1000;
+  z-index: 100;
   width: 100%;
   background: $color-black;
   height: $topbar-height;
@@ -33,6 +33,11 @@
   @include span(5);
   float: right;
   text-align: right;
+
+  .btn{
+    margin: .5rem 0 0 0;
+    font-size: .7rem;
+  }
 }
 
 /* NOTIFICATIONS

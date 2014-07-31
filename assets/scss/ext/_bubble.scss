@@ -1,7 +1,7 @@
 .bubble{
   position: fixed;
   top: $topbar-height;
-  z-index: 1001;
+  z-index: 200;
   width: 100%;
   text-align: left;
 
@@ -26,6 +26,19 @@
   &.bubble--info{
     .container{
       background: $color-info;
+    }
+  }
+
+  .bubble-close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: #fff;
+    opacity: .4;
+
+    &:hover{
+      opacity: .9;
+      cursor: pointer;
     }
   }
 

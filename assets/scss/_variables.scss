@@ -7,24 +7,30 @@
     $color-black: #141823;
     $color-body: #E9EAED;
 
-    $color-grey: #5A6772;
-    $color-grey--light: lighten($color-grey,45%);
-    $color-grey--dark: darken($color-grey,15%);
+    // $color-grey: #5A6772;
+    // $color-grey--light: lighten($color-grey,45%);
+    // $color-grey--dark: darken($color-grey,15%);
+
+    $color-grey: #848484;
+    $color-grey--dark: darken($color-grey,35%);
+    $color-grey--light: lighten($color-grey,30%);
 
     $color-red: #E15258;
-    $color-green: #88b759;
+    $color-green: #88B759;
     $color-aqua: #53BBB4;
-    $color-blue: #3079AB;
-    $color-blue--variant: #838CC7;
-    $color-purple: #a88ade;
-    $color-orange: #F9845B;
-    $color-yellow: #E0AB18;
 
-    $color-neon-blue: #0BF;
+    $color-blue: #0BF;
+    $color-blue--dark: darken($color-blue,10%);
+    $color-blue--light: lighten($color-blue,10%);
+    $color-blue--variant: #838CC7;
+
+    $color-purple: #A88ADE;
+    $color-orange: #FF7300;
+    $color-yellow: #E0AB18;
 
   /* 1.2. COLOR DEFINITION
      ========================================================================== */
-    $color-primary: $color-neon-blue;
+    $color-primary: $color-blue;
     $color-secondary: $color-blue--variant;
 
     $color-danger: $color-red;

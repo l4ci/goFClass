@@ -12,6 +12,47 @@
 </head>
 <body>
 
+<div class="overlay" id="login">
+
+    <div class="js-close-overlay overlay-close">
+      <i class="fa fa-times"></i>
+    </div>
+
+    <h2 class="h4">Login</h2>
+
+    <div class="form-msg form-msg--error">
+      <div class="form-msg-icon"><i class="fa fa-warning"></i></div>
+      <div class="form-msg-title">Error</div>
+      <div class="form-msg-text">Something went wrong!</div>
+    </div><!--.form-msg-->
+
+    <form action="#" class="overlay-inner">
+      <div class="form-control">
+        <input type="text" name="name" id="name" placeholder="E-Mail Address">
+      </div>
+      <div class="form-control">
+        <input type="password" name="password" id="password" placeholder="Enter Password" class="password-helper">
+      </div>
+      <div>
+        <button type="submit" class="btn btn-full btn-primary">Einloggen</button>
+      </div>
+      <div>
+        <label for="rememberMe">
+          <input type="checkbox" id="rememberMe"> Remember me
+        </label>
+      </div>
+      <div>
+        <button type="submit" class="btn btn-full">Login with Social</button>
+      </div>
+    </form>
+
+    <ul class="overlay-links">
+      <li><a href="#">Forgot Password?</a></li>
+      <li><a href="#">Forgot E-Mail?</a></li>
+    </ul>
+
+</div><!-- #login -->
+
 <div class="topBar">
   <div class="container">
     <a href="/" class="logo">Logo</a>
@@ -22,11 +63,12 @@
         <li><i class="fa fa-comments"></i></li>
         <li><i class="fa fa-bell"></i> <span class="badge">99+</span></li>
       </ul>
-    </div>
+    </div><!-- .notifications -->
+
     <div class="topbar-buttons">
       <a href="#" class="btn">Register</a>
-      <a href="login.html" class="btn">Login</a>
-    </div>
+      <a href="#login" class="btn js-open-overlay">Login</a>
+    </div><!-- .topbar-buttons -->
 
   </div><!-- .container -->
 </div><!-- .topbar -->
@@ -115,6 +157,10 @@
 
 </div><!-- .globalContainer -->
 
+<div class="status-bar">
+  <div class="client-status"></div>
+</div><!-- .status-bar -->
+
 <footer class="footer">
   <div class="container">
     <ul>
@@ -125,5 +171,10 @@
   </div><!-- .container -->
 </footer>
 
+
+<!-- Scripts -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/assets/js/jquery-1.10.2.min.js"><\/script>')</script>
+  <script src="/assets/js/main.js"></script>
 </body>
 </html>

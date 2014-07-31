@@ -10,7 +10,7 @@
     left: 0;
     bottom: 0;
     z-index: 100;
-    background: rgba($color-neon-blue,.4);
+    background: rgba($color-primary,.4);
   }
 
   .fullscreen-center{
@@ -47,26 +47,6 @@
       &:hover{
         color: #fff;
       }
-    }
-  }
-}
-
-
-.login_form{
-  background: white;
-  border-radius: 5px;
-  overflow: hidden;
-
-  input{
-    width: 100%;
-    padding: 1rem 1rem;
-    outline: none;
-    border: none;
-    border-bottom: 1px solid $color-grey--light;
-    color: $color-grey;
-
-    &:last-child{
-      border-bottom: none;
     }
   }
 }
