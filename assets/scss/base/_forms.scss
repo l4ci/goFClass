@@ -29,7 +29,7 @@
   .form-msg-close{
     position: absolute;
     top: .3rem;
-    right: .3rem;
+    right: .5rem;
     color: #fff;
     opacity: .7;
 
@@ -40,9 +40,16 @@
   }
 
   .form-msg-icon{
-    float: left;
-    display: inline-block;
-    margin: .5rem .7rem .5rem 0;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 1.2rem 0 .4rem;
+    //float: left;
+    //display: inline-block;
+    //margin: .5rem .7rem .5rem 0;
+  }
+  .form-msg-inner{
+    display: table-cell;
+    vertical-align: middle;
   }
   .form-msg-title{
     font-weight: bold;
@@ -61,6 +68,7 @@
 }
 
 input[type="text"],
+input[type="email"],
 input[type="password"]{
   position: relative;
   appearance: none;
@@ -90,6 +98,14 @@ input[type="password"]{
     color: #fff;
     outline: none;
   }
+}
+
+//input:required:invalid{ // show all required input fields
+//
+//}
+input:focus:invalid {
+  border-color: $color-error;
+  box-shadow: none;
 }
 
 /**

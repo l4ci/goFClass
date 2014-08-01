@@ -40,12 +40,115 @@
   }
 }
 
+/* DROPDOWN
+    used inside .notification
+    toggled with .notification li.active
+   ========================================================================== */
+.dropdown{
+  position: relative;
+
+  .dropdown-container{
+    position: absolute;
+    top: $topbar-height;
+    right: 0;
+    z-index: 99;
+
+    display: none;
+    //background: white;
+    background: $color-grey--dark;
+    color: white;
+    width: 300px;
+    //border-top: 1px solid rgba(white,.2);
+    border-top: 3px solid $color-primary;
+    box-shadow: #000 0 0 3rem;
+    border-radius: 0 0 $border-radius $border-radius;
+    text-align: left;
+
+    @include bp($bp-m){
+      position: fixed;
+      top: $topbar-height;
+      left: 0;
+      right: 0;
+      width: 100%; // make it full width
+      height: 80%; // make it heigher
+      margin: 0 auto;
+    }
+  }
+
+  .dropdown-inner{
+    padding: 1rem;
+    font-size: $font-size-h7;
+    max-height: 400px;
+    background: rgba(white,.1);
+
+    p{
+      font-size: inherit;
+    }
+  }
+  .dropdown-title{
+    margin: 0;
+    padding: .4rem .5rem;
+    font-size: $font-size-h7;
+    text-transform: uppercase;
+    color: white;
+    border-bottom: 1px solid rgba($color-grey,.2);
+
+    @include bp($bp-m){
+      padding: .8rem .8rem; // finger friendly
+    }
+
+    a{
+      margin: 0;
+      padding: 0;
+      color: $color-primary;
+      text-transform: none;
+      float: right;
+    }
+  }
+
+  .dropdown-footer{
+    margin: 0;
+    padding: .4rem .5rem;
+    font-size: $font-size-h7;
+    text-align: center;
+    color: white;
+
+    @include bp($bp-m){
+      padding: .8rem .8rem; // finger friendly
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    a{
+      margin: 0;
+      padding: 0;
+      color: $color-primary;
+    }
+  }
+  // If Dropdown has no content
+  .dropdown-empty{
+    margin: 0;
+    padding: .7rem 1rem;
+    text-align: center;
+    font-size: $font-size-h7;
+    background: rgba(white,.1);
+
+    @include bp($bp-m){
+      padding: 1rem; // finger friendly
+    }
+  }
+}
+
 /* NOTIFICATIONS
    ========================================================================== */
 .notifications{
   @include span(5);
+  display: block;
   float: right;
   text-align: right;
+  height: 100%;
 
   .badge{
     position: absolute;
@@ -65,21 +168,40 @@
 
   ul{
     @include horizontal-list;
+    height: 100%;
 
     li{
-      position: relative;
-      padding: .8rem;
-      color: $color-grey;
-      cursor: pointer;
+      height: 100%;
 
-      &:hover{
-        color: $color-grey--light;
-      }
-      &:active,
-      &:focus,
-      &:active:focus,
-      &.active{
-        color: white;
+      a{
+        position: relative;
+        z-index: 101;
+        display: block;
+        height: 100%;
+        padding: .8rem;
+        color: $color-grey;
+        cursor: pointer;
+
+        &:hover{
+          color: white;
+        }
+        &:active,
+        &:focus,
+        &:active:focus{
+          color: white;
+        }
+
+        &.js-dropdown--active {
+
+          color: white;
+          background: $color-primary;
+          border-bottom: none;
+
+          &+.dropdown-container{
+            display: block;
+          }
+        }
+
       }
     }
   }

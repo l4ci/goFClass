@@ -22,6 +22,11 @@ $susy: (
 
   position: relative;
   // max-width: 1000px;
+  height: 100%;
+
+  @include bp($bp-m){
+    width: 90%;
+  }
 }
 
 /* Sizes

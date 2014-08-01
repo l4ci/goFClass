@@ -9,6 +9,7 @@
 
   <title>FrontEnd</title>
   <link rel="stylesheet" href="../assets/css/main.css">
+  <script src="../assets/bower_components/sprockets-modernizr/modernizr.js"></script>
 </head>
 <body>
 
@@ -22,19 +23,21 @@
 
       <h2 class="h4">Login</h2>
 
-      <!--
-      <div class="form-msg form-msg--error">
+
+      <!--<div class="form-msg form-msg--error">
         <div class="form-msg-icon"><i class="fa fa-warning"></i></div>
-        <div class="form-msg-title">Error</div>
-        <div class="form-msg-text">Something went wrong!</div>
+        <div class="form-msg-inner">
+          <div class="form-msg-title">Error</div>
+          <div class="form-msg-text">Something went wrong!</div>
+        </div>
       </div><!--.form-msg-->
 
       <form action="#">
         <div class="form-control">
-          <input type="text" name="name" id="name" placeholder="E-Mail Address">
+          <input type="email" required name="name" id="name" placeholder="E-Mail Address">
         </div>
         <div class="form-control">
-          <input type="password" name="password" id="password" placeholder="Enter Password" class="password-helper">
+          <input type="password" required name="password" id="password" placeholder="Enter Password" class="password-helper">
         </div>
         <div>
           <button type="submit" class="btn btn-full btn-primary">Einloggen</button>
@@ -85,9 +88,45 @@
 
     <div class="notifications">
       <ul>
-        <li><i class="fa fa-users"></i> <span class="badge">3</span></li>
-        <li><i class="fa fa-comments"></i></li>
-        <li><i class="fa fa-bell"></i> <span class="badge">99+</span></li>
+        <li class="dropdown">
+          <a href="#"><i class="fa fa-users"></i> <span class="badge">3</span></a>
+          <div class="dropdown-container">
+            <div class="dropdown-title">
+              Friendrequests
+            </div>
+            <div class="dropdown-inner">
+
+            </div>
+            <div class="dropdown-footer">
+              <a href="#">Show all</a>
+            </div>
+          </div><!-- .dropdown-container -->
+        </li>
+        <li class="dropdown">
+          <a href="#"><i class="fa fa-comments"></i></a>
+          <div class="dropdown-container">
+            <div class="dropdown-title">
+              Messages <a href="#">New message</a>
+            </div>
+            <div class="dropdown-empty">
+              No new messages.
+            </div>
+          </div><!-- .dropdown-container -->
+        </li>
+        <li class="dropdown">
+          <a href="#"><i class="fa fa-bell"></i> <span class="badge">99+</span></a>
+          <div class="dropdown-container">
+            <div class="dropdown-title">
+              Notifications <a href="#">Mark all as read</a>
+            </div>
+            <div class="dropdown-inner">
+
+            </div>
+            <div class="dropdown-footer">
+              <a href="#">Show all</a>
+            </div>
+          </div><!-- .dropdown-container -->
+        </li>
       </ul>
     </div><!-- .notifications -->
 
