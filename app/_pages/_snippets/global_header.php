@@ -11,6 +11,8 @@
   <meta name="description" content="<?= (isset($description) ? $description : c::get('SITE_DESCRIPTION','') )?>">
   <meta name="keywords" content="<?= (isset($keywords) ? $keywords : c::get('SITE_KEYWORDS','') ) ?>">
 
+  <script src="../assets/bower_components/sprockets-modernizr/modernizr.js"></script>
+
   <link rel="canonical" href="<?=c::get('SITE_URL')?>">
   <link rel="stylesheet" href="/assets/css/main.css">
   <?

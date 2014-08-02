@@ -4,6 +4,9 @@ if(!defined('APP')) die('Direct access is not allowed');
 /* ==========================================================================
    ROUTER - PUBLIC
    ========================================================================== */
+
+
+// HOME
 $app->get('/', function(){
 
   $pageVARS = array(
@@ -12,13 +15,14 @@ $app->get('/', function(){
       'js' => false // string/array - without file extension ".js"
       );
 
-  snippet('header',$pageVARS);
+  snippet('global_header',$pageVARS);
 
-  echo "Home Page";
+  require_once(c::get('APP_PATH_PAGES').'home'.DS.'tpl.php');
 
-  snippet('footer',$pageVARS);
+  snippet('global_footer',$pageVARS);
 
 });
+
 
 $app->get('/hello/:name', function ($name) {
     echo "Hello, $name";
